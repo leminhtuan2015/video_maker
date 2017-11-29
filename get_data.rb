@@ -3,11 +3,11 @@
 
 require 'json'
 require 'streamio-ffmpeg'
-require 'FileUtils'
+require 'fileutils'
 
 class X
-	$min_minus = 1
-	$DIR = "/Users/fuji/Desktop/a/*"
+	$min_minus = 30
+	$DIR = "/Users/fuji/Documents/shared/Source_Video/animals/*"
 	$OUTPUT = "data"
 
 	$duration = 0
