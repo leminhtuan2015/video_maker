@@ -7,7 +7,7 @@ require 'fileutils'
 
 class X
 	$min_minus = 30
-	$DIR = "/Users/fuji/Documents/shared/Source_Video/animals/*"
+	$DIR = "/Users/fuji/Documents/shared/Source_Video/animals_1/*"
 	$OUTPUT = "data"
 
 	$duration = 0
@@ -34,7 +34,9 @@ class X
 
 		  	puts "--- duration #{duration}"
 
-			$videos.push "file \'#{file}\'"
+			# $videos.push "file \'#{file}\'"
+			$videos.push "#{file}"
+
 		  	$duration = $duration + duration
 
 		  	puts "--- duration now: #{$duration}"
